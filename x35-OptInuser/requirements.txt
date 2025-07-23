@@ -1,0 +1,9 @@
+pydantic>=2.10.6
+pydantic-settings>=2.7.1
+fastapi==0.115.6
+requests==2.32.3  # For HTTP interactions with Kafka REST Proxy
+uvicorn==0.34.0  # ASGI server for FastAPI
+httpx==0.28.1  # For async HTTP client with retry capabilities
+psutil==6.1.1  # For system metrics
+
+
